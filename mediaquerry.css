@@ -1,0 +1,308 @@
+@media screen and (max-width:1600){
+  .main-page{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+}
+@media screen and (max-width:1522){
+    .main-page{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }  
+    .container {
+        max-width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  @media (max-width: 1450px) { 
+    .container {
+        max-width: 100%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .roadmap-body{
+        width: 100%;
+        height: 15em;
+        flex-wrap: wrap;
+        background-color:hwb(29 10% 38% / 0.081) ;
+    }
+    .roadmap-body h3{
+        width: 0;
+    }
+
+
+
+}
+@media (max-width: 1204px) { 
+    .container {
+        max-width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-title h1{
+        font-size: 80px;
+    }
+}
+
+@media (max-width:1197px) { 
+    .container {
+        max-width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .roadmap-body{
+        width: 100%;
+        height: 25em;}
+    .roadmap-body p{
+        margin: 12px;
+    }
+}
+
+
+@media (max-width: 1012px) { 
+    .container {
+        max-width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-title h1{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 883px) { 
+    .container {
+        max-width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-title h1{
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width: 740px) { 
+    .container {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .roadmap-body{
+        width: 100%;
+        height: 30em;
+    }
+    .roadmap-body p{
+        margin: 5px;
+    }
+    .highlights-content{
+        margin-top:10px;
+        margin-bottom: 50px;
+    }
+    .highlights-body{
+        margin-top: 15px;
+    }
+}
+
+
+
+
+  @media (max-width: 768px) { 
+    .container {
+        max-width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+    }}
+    @media (max-width: 768px) {
+        /* first part */
+        .main-title h1{
+            font-size: 50px;
+        }
+        .about{
+            font-size: 20px;
+        }
+        .about-content{
+            font-size: 20px;
+        }
+        /* second part */
+        .highlights{
+            margin-top: 20px;
+            padding-left: 10px;
+        }
+        .highlights-content {
+            flex-direction: column; 
+        }
+        .roadmap-body {
+            flex-wrap: wrap; 
+        }
+        .updates p{
+            font-size: 20px;
+        }
+    .reg-content li{
+        font-size: 20px;
+    }
+
+    @media (max-width: 628px) { 
+        .container {
+            max-width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .main-title h1{
+            font-size: 38px;
+        }
+    }
+
+
+    @media (max-width: 600px) { 
+        .container {
+            max-width: 95%; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .main-title h1{
+            font-size: 38px;
+        }
+         .highlights{
+            font-size: 2.8em;
+         }
+         .highlights-body h2{
+            font-size: 1.3em;
+         }
+         .highlights-body p{
+            font-size:1.2em;
+         }
+         .roadmap{
+            font-size: 2.8em;
+         }
+         .roadmap-body h3{
+            font-size: 1.3em;
+         }
+         .roadmap-body p{
+            font-size:1.2em;
+         }
+         .update{
+            font-size: 2.8em;
+         }
+         .updates p{
+            font-size:1.2em;
+        }
+        .registration-h{
+            font-size: 2.8em;
+        }
+        .reg-content h3{
+            font-size: 1.3em;
+        }
+        .reg-content li{
+            font-size: 1.2em;
+        }
+    }
+
+}
+
+@media (max-width: 495px) { 
+    .container {
+        max-width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-title h1{
+        font-size: 34px;
+    }
+     .highlights{
+        font-size: 2.4em;
+     }
+     .highlights-body h2{
+        font-size: 1.3em;
+     }
+     .highlights-body p{
+        font-size:1em;
+     }
+     .roadmap{
+        font-size: 2.4em;
+     }
+     .roadmap-body h3{
+        font-size: 1.3em;
+     }
+     .roadmap-body p{
+        font-size:1em;
+     }
+     .update{
+        font-size: 2.4em;
+     }
+     .updates p{
+        font-size:1em;
+    }
+    .registration-h{
+        font-size: 2.4em;
+    }
+    .reg-content h3{
+        font-size: 1.3em;
+    }
+    .reg-content li{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 440px) { 
+    .container {
+        max-width: 100%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-page{
+         max-width: 80%
+    }
+    .main-title h1{
+        font-size: 23px;
+        margin-top: 20px;
+    }
+     .highlights{
+        font-size: 2.4em;
+     }
+     .highlights-body h2{
+        font-size: 1.3em;
+     }
+     .highlights-body p{
+        font-size:1em;
+     }
+     .roadmap{
+        font-size: 2.4em;
+     }
+     .roadmap-body h3{
+        font-size: 1.3em;
+     }
+     .roadmap-body p{
+        font-size:1.2em;
+     }
+     .roadmap-body {
+        flex-direction:column;
+        height: 48em; 
+    }
+    .updates{
+        margin-top: 20px;
+    }
+     .update{
+        font-size: 2.4em;
+     }
+     .updates p{
+        font-size:0.9em;
+    }
+    .registration-h{
+        font-size: 2.4em;
+    }
+    .reg-content h3{
+        font-size: 1.3em;
+    }
+    .reg-content li{
+        font-size: 1em;
+    }
+    .reg-content ul{
+        padding-left: 20px;
+    }
+}
+

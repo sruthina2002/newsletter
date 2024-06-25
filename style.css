@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh; 
+    height: auto;    
+   background-color: black;
+   background-image: 
+   linear-gradient(to right, #451e1e 1px, transparent 0.1px),
+   linear-gradient(to bottom, #545151 1px, transparent 0.1px);
+background-size: 50px 50px; 
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-page{
+    max-width: 70%; 
+    margin: 0 auto; 
+    background-color: rgb(191, 194, 194);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;  
+    box-shadow: 0.1em 0.1em 0.3em 0.1em #eceef0;
+    filter:
+    saturate(1)
+    brightness(1)
+    contrast(1)
+    opacity(1);
+}
+h1{
+    font-family:"Orbitron",sans-serif;
+    font-style:normal;
+    font-weight: 10px;
+    font-size: 5.8em;
+    color: #edecec;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+.main-title{
+    display: flex;
+    justify-content: center;
+}
+.main-title h1{
+    margin-left: 10px;
+}
+.coloredtitle{
+    color: orange;
+}
+.contents{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about{
+    font-family:"Didact Gothic",sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+.launchpad-kerala{
+    font-family:"Didact Gothic",sans-serif;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 2em;
+    color: hwb(29 10% 38%);
+}
+.about-content{
+    font-family:"Didact Gothic",sans-serif;
+    font-style:italic;
+    font-size: 1.5em;
+}
+.highlights{
+    font-family:"Didact Gothic",sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 3em;
+    padding-right:40px;
+    padding-left: 40px;
+}
+.highlights-content{
+    display: flex;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.highlights-body{
+    font-family:"Didact Gothic",sans-serif;
+    font-style: normal;
+}
+.highlights-body h2{
+   font-weight: bold;
+   font-size: 1.5em;
+   color: hwb(29 10% 38%);
+   font-style:oblique;
+}
+.highlights-body p{
+    font-size: 1.5em;
+}
+.roadmap-body{
+    display: flex;
+    justify-content: space-between;
+}
+.roadmap{
+    font-family:"Didact Gothic",sans-serif;
+    font-size: 3em;
+}
+.roadmap-body h3{
+    font-family:"Didact Gothic",sans-serif;
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    background-color: hwb(29 10% 38% / 0.112);
+    border-radius: 50%;
+    color:black;
+    
+}
+.roadmap-body p{
+    font-family:"Didact Gothic",sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    color: black;
+    margin: 10px;
+}
+.roadmap-body{
+    width: 100%;
+    height: 2px;
+    background-color: hwb(29 10% 38%);
+}
+.updates{
+    margin-top: 150px;
+}
+.update-content{
+    display: flex;
+    justify-content: center;
+}
+.update{
+    font-family:"Didact Gothic",sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 10px;
+}
+.updates p{
+    display: flex;
+    justify-content: center;
+    font-family:"Didact Gothic",sans-serif;
+    font-style: normal;
+    font-size: 1.8em;
+    padding-left: 10px;
+   color:hwb(29 10% 38%) ;
+}
+.updates img{
+    max-width: 100%;
+}
+.reg-content ul{
+    padding-left: 3em;
+}
+.reg-content ul p{
+    list-style:circle;
+}
+.registration-h{
+    font-family:"Didact Gothic",sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+.reg-content h3{
+    font-family:"Didact Gothic",sans-serif;
+    font-size: 1.7em;
+    font-style: italic;
+    color:hwb(29 10% 38%);
+}
+.reg-content li{
+    font-family:"Didact Gothic",sans-serif;
+    font-size:1.5em;
+}
+.registration{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+a{
+    color:hwb(29 10% 38%) ;
+    text-decoration: none;
+}
+a:hover {
+    color:black;
+  }
+ a:visited {
+    color: brown;
+  }
